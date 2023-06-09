@@ -23,8 +23,15 @@
 							<li><a href="#one">Who we are</a></li>
 							<li><a href="#two">What we do</a></li>
 							<li><a href="#three">Get in touch</a></li>
+							<li>
+								<div class="icons" style="width: 100%; display: flex; justify-content: space-around;">
+									<div onclick="openNewTab('https\://www.google.com')" class="icon brands mini fa-twitter"></div>
+									<div onclick="openNewTab('https\://www.google.com')" class="icon brands mini fa-github"></div>
+									<div onclick="openNewTab('https\://www.google.com')" class="icon brands mini fa-linkedin-in"></div>
+								</div>
+							</li>
 						</ul>
-						
+
 									
 					</nav>
 				</div>
@@ -208,4 +215,11 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
+	<script>
+        function openNewTab(link) {
+            window.open(
+            link, "_blank");
+        }
+    </script>
 </html>
