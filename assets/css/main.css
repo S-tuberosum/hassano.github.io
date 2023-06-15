@@ -215,7 +215,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2.15em;
 	}
 
 		h2.major {
@@ -239,7 +239,7 @@ input, select, textarea {
 				height: 0.05em;
 				position: absolute;
 				right: 0;
-				width: 100%;
+				width: 0;
 			}
 	}
 
