@@ -239,7 +239,7 @@ input, select, textarea {
 				height: 0.05em;
 				position: absolute;
 				right: 0;
-				width: 0;
+				width: 100%;
 			}
 	}
 
