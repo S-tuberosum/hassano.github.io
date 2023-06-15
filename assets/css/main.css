@@ -218,6 +218,25 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
+		h2.major {
+			margin: 0 0 1.3em 0;
+			position: relative;
+			padding-bottom: 0.35em;
+		}
+
+			h2.major:after {
+				background-image: -moz-linear-gradient(to right, #4b5b9c, #ffffff);
+				background-image: -webkit-linear-gradient(to right, #4b5b9c, #ffffff);
+				background-image: -ms-linear-gradient(to right, #4b5b9c, #ffffff);
+				background-image: linear-gradient(to right, #4b5b9c, #ffffff);
+				-moz-transition: max-width 0.2s ease;
+				-webkit-transition: max-width 0.2s ease;
+				-ms-transition: max-width 0.2s ease;
+				transition: max-width 0.2s ease;
+				max-width: 0;
+			}
+	}
+
 	h3 {
 		font-size: 1.1em;
 	}
